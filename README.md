@@ -2,6 +2,8 @@
 
 In this workshop we'll use Python and basic command line tools to explore the possibilities of manipulating video with code. We'll treat video as a textual as well as visual medium, and focus on repurposing found footage to generate new compositions and narratives.
 
+## Schedule
+
 ### Day 1
 
 * Look at some examples
@@ -17,3 +19,14 @@ In this workshop we'll use Python and basic command line tools to explore the po
   * Speech-to-text: using open source and paid tools
 * Videogrep
 * Introduction to Python
+
+
+## Resources
+
+* FFMPEG
+* Videogrep
+* IBM Watson
+
+## Going further
+
+* TBD
