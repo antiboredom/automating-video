@@ -12,7 +12,7 @@ In this workshop we'll use Python and basic command line tools to explore the po
 * Editing videos using FFMPEG
 
 ### Day 2
-* Looking at as text
+* Treating at videos as texts
   * Subtitle files: how they work and how to download them
   * Speech-to-text: using open source and paid tools
 * Videogrep
