@@ -17,8 +17,8 @@ In this workshop we'll use Python and basic command line tools to explore the po
 * Treating at videos as texts
   * Subtitle files: how they work and how to download them
   * Speech-to-text: using open source and paid tools
+* Basic text analysis
 * Videogrep
-* Introduction to Python
 
 
 ## Resources
