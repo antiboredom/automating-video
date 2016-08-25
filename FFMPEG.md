@@ -8,9 +8,8 @@ Filter documentation: [https://ffmpeg.org/ffmpeg-filters.html](https://ffmpeg.or
 
 ### Installation
 
-#### Mac
+#### Mac (the harder way)
 
-##### The harder way
 Install homebrew
 
 ```bash
@@ -22,9 +21,9 @@ Use brew to install ffmpeg
 brew install ffmpeg --with-ffplay
 ```
 
-##### The easier way
+#### Mac (The easier way)
 
-Download ffmpeg and unzip it.
+[Download ffmpeg](http://lav.io/ffmpeg.zip) and unzip it.
 
 Then, in the terminal type:
 
