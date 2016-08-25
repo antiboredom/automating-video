@@ -71,6 +71,20 @@ Slowing it down:
 ffmpeg -i input.mp4 -vf "setpts=2.0*PTS" slowvid.mp4
 ```
 
+Resize a video:
+
+```
+ffmpeg -i input.mp4 -c:v libx264 -s:v 100x100 -c:a copy output.mp4
+```
+
+Extracting a portion of a video:
+(this will get five seconds, starting at 1 minute and 30 seconds)
+
+```
+ffmpeg -ss 00:01:30 -i input.mp4 -c:v copy -c:a copy -t 5 output.mp4
+``` 
+
+
 ### More complex stuff
 
 
