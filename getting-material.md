@@ -22,6 +22,12 @@ For example:
 youtube-dl https://www.youtube.com/watch?v=3TuwN0DmNeU
 ```
 
+You can also download an entire user or channel. For example this will download the entire whitehouse channel (it will take a long time).
+
+```
+https://www.youtube.com/user/whitehouse/
+```
+
 ## Savefrom.net
 Another easy option for YouTube Videos is [savefrom.net](http://en.savefrom.net/). Just go to any YouTube video, and then change the domain name from www.youtube.com to www.ssyoutube.com.
 
