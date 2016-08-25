@@ -16,6 +16,12 @@ To download a video, just type youtube-dl and the url of the video you want
 youtube-dl http://youtube.com.com/somevideo
 ```
 
+For example:
+
+```
+youtube-dl https://www.youtube.com/watch?v=3TuwN0DmNeU
+```
+
 ## Savefrom.net
 Another easy option for YouTube Videos is [savefrom.net](http://en.savefrom.net/). Just go to any YouTube video, and then change the domain name from www.youtube.com to www.ssyoutube.com.
 
