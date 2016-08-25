@@ -52,6 +52,13 @@ Turning a video into a gif:
 ffmpeg -i input.mp4 output.gif
 ```
 
+Turning a video into choppier but smaller gif:
+(```-r 3``` will make it 3 frames per second)
+
+```
+ffmpeg -i input.mp4 -r 3 output.gif
+```
+
 Extracting the audio:
 
 ```
