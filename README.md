@@ -26,6 +26,9 @@ In this workshop we'll use Python and basic command line tools to explore the po
 * [Getting material](https://github.com/antiboredom/automating-video/blob/master/getting-material.md)
 * FFMPEG: [Official site](https://ffmpeg.org/) / [tutorial](https://github.com/antiboredom/automating-video/blob/master/FFMPEG.md)
 * Videogrep: [Official site](http://antiboredom.github.io/videogrep) / [tutorial](https://github.com/antiboredom/automating-video/blob/master/videogrep.md)
+ 
+
 * [Moviepy](http://zulko.github.io/moviepy/index.html)
 * [IBM Watson](https://www.ibm.com/marketplace/cloud/cognitive-application-development/us/en-us)
 * [Intro to the command line by Allison Parrish](http://www.decontextualize.com/teaching/rwet/introduction-and-unix-tutorial/)
+* [online ngram analyzer](http://guidetodatamining.com/ngramAnalyzer/analyze.php)
