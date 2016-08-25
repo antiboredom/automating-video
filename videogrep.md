@@ -26,8 +26,16 @@ If this doesn't work you probably don't have pip installed. To get install it, f
 
 ## Basic Use
 
+For a single video:
+
 ```
 videogrep --input my_video.mp4 --search 'some word or phrase' --output my_new_video.mp4
+```
+
+For multiple videos:
+
+```
+videogrep --input *.mp4 --search 'some word or phrase' --output my_new_video.mp4
 ```
 
 ## Advanced Use
