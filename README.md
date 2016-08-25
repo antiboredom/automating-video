@@ -22,6 +22,7 @@ In this workshop we'll use Python and basic command line tools to explore the po
 
 ## Resources
 
+* [Example videos](http://lav.io/some_videos.zip)
 * [Getting material](https://github.com/antiboredom/automating-video/blob/master/getting-material.md)
 * FFMPEG: [Official site](https://ffmpeg.org/) / [tutorial](https://github.com/antiboredom/automating-video/blob/master/FFMPEG.md)
 * Videogrep: [Official site](http://antiboredom.github.io/videogrep) / [tutorial](https://github.com/antiboredom/automating-video/blob/master/videogrep.md)
