@@ -114,6 +114,35 @@ videogrep --input myvideo.mp4 --use-transcript --search "trump"
 The ```--search-type``` flag will work with transcribed videos also.
 
 
+## Using Videogrep from Python
+
+You can also use videogrep from a Python script rather than the command line.
+
+Here's an example of how to automatically create a supercut of the most common phrase in any video file. I used a similar process to create [this twitter bot](http://twitter.com/cspanfive).
+
+```python
+import sys
+from pattern.en import ngrams
+import videogrep
+from collections import Counter
+
+videofile = sys.argv[1]
+subtitlefile = videofile.replace('.mp4', '.srt')
+
+lines = open(subtitlefile).read()
+grams = ngrams(lines, n=3)
+
+most_common = Counter(grams).most_common(1)
+
+phrase = most_common[0][0]
+phrase = ' '.join(phrase)
+
+print phrase
+
+outputfile = videofile + '.most_common.mp4'
+videogrep.videogrep([videofile], outputfile, phrase, 're')
+```
+
 
 
 
