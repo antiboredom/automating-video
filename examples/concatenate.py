@@ -13,5 +13,5 @@ for filename in sys.argv[1:]:
     video = video.resize((1280, 720))
     videos.append(video)
 
-final_video = mp.concatenate(videos)
+final_video = mp.concatenate_videoclips(videos, method="compose")
 final_video.write_videofile('composition.mp4')
