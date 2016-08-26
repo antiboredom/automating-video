@@ -24,7 +24,7 @@ def repeat_frames(videofile, segment_length, repeat):
 
     final_video = mp.concatenate(clips)
 
-    final_video.write_videofile('repeated.mp4')
+    final_video.write_videofile('repeated.mp4', codec="libx264", temp_audiofile='temp-audio.m4a', remove_temp=True, audio_codec='aac')
 
 
 if __name__ == '__main__':

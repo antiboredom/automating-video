@@ -24,7 +24,7 @@ def randomize_video(videofile, segment_length):
 
     final_video = mp.concatenate_videoclips(clips)
 
-    final_video.write_videofile('random.mp4')
+    final_video.write_videofile('random.mp4', codec="libx264", temp_audiofile='temp-audio.m4a', remove_temp=True, audio_codec='aac')
 
 
 if __name__ == '__main__':

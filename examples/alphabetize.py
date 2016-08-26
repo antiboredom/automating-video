@@ -37,4 +37,4 @@ for timestamp in timestamps:
 
 
 final_video = mp.concatenate_videoclips(clips)
-final_video.write_videofile('alphabetized.mp4')
+final_video.write_videofile('alphabetized.mp4', codec="libx264", temp_audiofile='temp-audio.m4a', remove_temp=True, audio_codec='aac')
