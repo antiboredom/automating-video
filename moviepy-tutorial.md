@@ -34,6 +34,12 @@ final_video.write_videofile('composition.mp4')
 
 After we load our videos in, we make a new clip with the ```concatenate_videoclips``` method, which takes an array of ```Clip``` instances. Once we have our ```final_video``` clip, we call ```write_videofile``` to save our composition.
 
+If you can't hear the audio of the output, you may need to add the following parameters to ```write_videofile```:
+
+```python
+final_video.write_videofile('composition.mp4', codec="libx264", temp_audiofile='temp-audio.m4a', remove_temp=True, audio_codec='aac')
+```
+
 You can also tell moviepy to use only a portion of clip, by calling ```subclip(start, end)``` on a ```VideoFileClip```. The ```subclip``` method takes two arguments, a start and an end time, in seconds.
 
 ```python
