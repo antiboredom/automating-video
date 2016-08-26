@@ -148,9 +148,15 @@ random_number = random.randint(1, 100) # gets a random integer between 1 and 100
 ```
 
 ## Command Line Arguments
+
+When you run a python script you can add additional arguments that get passed in to the script. These are accessible via  ```sys.argv``` which takes the arguments and sticks them into a list for you.
+
 ```python
 import sys
 
+# get the first argument and store it in the "name" variable
 name = sys.argv[1]
 print "Hi " + name
 ```
+
+You would run this script by typing ```python hello.py Sam```
