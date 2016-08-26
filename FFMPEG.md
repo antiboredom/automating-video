@@ -8,7 +8,8 @@ Filter documentation: [https://ffmpeg.org/ffmpeg-filters.html](https://ffmpeg.or
 
 ### Installation
 
-#### Mac
+#### Mac (the harder way)
+
 Install homebrew
 
 ```bash
@@ -18,6 +19,16 @@ Use brew to install ffmpeg
 
 ```bash
 brew install ffmpeg --with-ffplay
+```
+
+#### Mac (The easier way)
+
+[Download ffmpeg](http://lav.io/ffmpeg.zip) and unzip it.
+
+Then, in the terminal type:
+
+```
+mv ~/Downloads/ffmpeg /usr/local/bin/
 ```
 
 #### Windows
@@ -39,6 +50,13 @@ Turning a video into a gif:
 
 ```
 ffmpeg -i input.mp4 output.gif
+```
+
+Turning a video into choppier but smaller gif:
+(```-r 3``` will make it 3 frames per second)
+
+```
+ffmpeg -i input.mp4 -r 3 output.gif
 ```
 
 Extracting the audio:
