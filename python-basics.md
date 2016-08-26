@@ -1,6 +1,6 @@
 # Python Basics
 
-Here's a very quick intro to Python. If you're interested in learning more, I recommend Zed Shaw's [Learn Python the Hard Way](https://learnpythonthehardway.org/book/).
+Here's a very quick intro to Python, mostly aimed at covering things I show the in examples folder. If you're interested in learning more, I recommend Zed Shaw's [Learn Python the Hard Way](https://learnpythonthehardway.org/book/).
 
 ## Hello World
 
@@ -128,6 +128,23 @@ if name == "Sam":
 	print "Hi Sam!!!!!"
 else:
 	print "Hi " + name
+```
+
+
+## Modules
+Python has tons of useful libraries that you can put in your scripts to add extra functionality. These are called "modules" in python. Some are included with your installtion of Python, like the ```sys``` module, or the ```random``` module. There are also tons of external modules that you can install via the ```pip``` command (like ```moviepy```).
+
+Use the ```import``` command to import a module.
+
+```python
+
+# import the "random" library
+import random
+
+# to use the library, first type the module's name, and then a "." and then the method you want to use
+# in this case, there is a method in "random" called "randint" which gives us a random integer
+random_number = random.randint(1, 100) # gets a random integer between 1 and 100)
+
 ```
 
 ## Command Line Arguments
