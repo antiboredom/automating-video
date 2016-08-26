@@ -102,6 +102,22 @@ my_dict["name"] = "Todd" # changes "name" to "Todd"
 my_dict["last_name"] = "Anderson" # adds a new key "last_name" with the value "Anderson"
 ```
 
+## Functions
+
+You can define a function with the ```def``` command.
+
+```python
+def say_hi(name):
+    print "Hello " + name
+    
+say_hi("Sam") # prints "Hello Sam"
+
+def add_two_numbers(a, b):
+    return a + b
+
+my_number = add_two_numbers(1, 3) # my_number will now equal 4
+```
+
 ## Flow control
 
 ```python
