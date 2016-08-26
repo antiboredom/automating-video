@@ -29,4 +29,4 @@ In this workshop we'll use Python and basic command line tools to explore the po
 * [Moviepy](http://zulko.github.io/moviepy/index.html)
 * [IBM Watson](https://www.ibm.com/marketplace/cloud/cognitive-application-development/us/en-us)
 * [Intro to the command line by Allison Parrish](http://www.decontextualize.com/teaching/rwet/introduction-and-unix-tutorial/)
-* [online ngram analyzer](http://guidetodatamining.com/ngramAnalyzer/analyze.php)
+* [online ngram analyzer](http://guidetodatamining.com/ngramAnalyzer/index.php)
