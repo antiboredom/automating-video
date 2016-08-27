@@ -10,7 +10,7 @@ sentences = audiogrep.convert_timestamps([videofile])
 
 timestamps = []
 for sentence in sentences:
-    words += sentence['words']
+    timestamps += sentence['words']
 
 # alphabetize the list
 timestamps.sort(key=lambda x: x[0])
